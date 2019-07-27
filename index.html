@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>
+		Online Library Management System
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=50%, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<style type="text/css">
+	nav
+	{
+		float: right;
+		word-spacing: 30px;
+		padding: 20px;
+	}
+
+    li{
+    	background-color: #5e594f;
+    	float: left;
+    	margin-top: 5px;
+   	}	
+	
+    li a {
+  		display: block;
+ 		color: white;
+ 		text-align: center;
+  		padding: 14px 40px;
+  		text-decoration: none;
+	}
+
+	li a:hover{
+  		background-color: black;
+	}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header>
+
+					<div class="logo">
+			<br><h2><b><i><em><mark class="ab">ONLINE LIBRARY MANAGEMENT SYSTEM</mark></em></strong></i></b></h2>
+		</div>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="login.html">STUDENT-LOGIN</a></li>
+					<li><a href="login.html">ADMIN_LOGIN</a></li>
+					<li><a href="">FEEDBACK</a></li>
+				</ul>
+		
+
+		</header>
+		
+<section>
+
+<script type="text/javascript">
+	var a=0;
+	carousel();
+
+	function carousel()
+	{
+		var i;
+		var x= document.getElementsByClassName("mySlides");
+
+		for(i=0; i<x.length; i++)
+		{
+			x[i].style.display="none";
+		}
+
+		a++;  
+		if(a > x.length) {a = 1}
+			x[a-1].style.display = "background";
+			setTimeout(carousel, 1);
+	}
+</script>
+<!--
+			<br><br><br>
+
+			<div class="box">
+				<br><br><br><br>
+				<h1 style="text-align: center; font-size: 35px;">Welcom to library</h1><br><br>
+				<h1 style="text-align: center;font-size: 25px;">Opens at: 09:00 </h1><br>
+				<h1 style="text-align: center;font-size: 25px;">Closes at: 15:00 </h1><br>
+			</div>
+-->
+		
+</section>
+		
+		<footer>
+			
+		<p class="foot">
+				Email:&nbsp iiitvadodara.ac.in <br>
+				Mobile:&nbsp &nbsp +918058146837
+		</p>
+
+		</footer>
+
+	</div>
+</body>
+</html>	
