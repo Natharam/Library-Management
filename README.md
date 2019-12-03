@@ -1,6 +1,6 @@
 # Library Management System
 ### Description
-This repository contains the code used to build a simple management system for book rentals in a fake library as a mini-project for a foundation Python course. The project is a terminal application coded on Python using the Pandas library and SQLite.
+The project is a terminal application coded on Python using the Pandas library and SQLite.
 
 ### Files
 There are 3 main files in the repository:
